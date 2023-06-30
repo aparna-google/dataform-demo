@@ -23,6 +23,5 @@ config {
 }
 
 
-select taxi.*, payment.Payment_Type_Description
-from ${ref("rides_group_data")} taxi join ${ref("biglake_payment_type")} payment
-on taxi.payment_type_id=payment.payment_type_id
+select * 
+from ${ref("rides_group_data")}

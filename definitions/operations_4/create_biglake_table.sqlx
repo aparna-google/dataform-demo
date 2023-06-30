@@ -12,4 +12,4 @@ tags: ["stored procedure"]
 
 
 
-${CreateBiglake.CreateBiglake("'biglake_payment_type'","'gs://processed-[skilled-box-391314]-meppxbf9ob/processed/taxi-data/payment_type_table/*.parquet'")}
+${CreateBiglake.CreateBiglake("'biglake_payment_type'","'gs://processed-skilled-box-391314-meppxbf9ob/processed/taxi-data/payment_type_table/*.parquet'")}

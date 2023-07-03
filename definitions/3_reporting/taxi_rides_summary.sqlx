@@ -1,5 +1,5 @@
 /*Final step in the pipeline.
-Creates a summary table.
+Creates a summary table. 
 Query joins the view results with a lookeup table for payment type (which is a BigLake table) */
 
 config {

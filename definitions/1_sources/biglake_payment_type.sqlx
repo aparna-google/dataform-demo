@@ -1,4 +1,4 @@
---- Biglake table. contains lookup info for payment type
+---  Biglake table. contains lookup info for payment type
 config {
  type: "declaration",
  database: "skilled-box-391314",
